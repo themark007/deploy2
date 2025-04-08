@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Party List</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h2>Party Members 🎉</h2>
+    <ul>
+        <% partyList.forEach(user => { %>
+            <li><%= user.username %></li>
+        <% }) %>
+    </ul>
+</body>
+</html>
